@@ -35,7 +35,8 @@ export default class App extends Component {
       <div className='wow'>
         <div className="bar"> </div>
           <div className="container">
-            <h1>Crypto Newspaper 🗞</h1>
+            <h1>
+              Crypto Newspaper <img src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/rolled-up-newspaper.png" width="50" alt=""/></h1>
 
             <div className='date'>{moment().format('MMMM DD,YYYY')}</div>
 
